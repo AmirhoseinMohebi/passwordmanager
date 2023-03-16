@@ -45,7 +45,7 @@ def save():
         }
     }
 
-    if len(website) == 0 or len(password) == 0:
+    if len(website) == 0 or len(password) == 0 or len(email) == 0:
         messagebox.showinfo(
             title="Error", message="make sure all fields are filled...")
     else:
